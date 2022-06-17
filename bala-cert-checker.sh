@@ -1,8 +1,7 @@
 #!/bin/bash
 #
-# Author        :Julio Sanz
-# Website       :www.elarraydejota.com
-# Email         :juliojosesb@gmail.com
+# Author        :Balakumaran A M
+# Email         balakumaran.manivel@arkinfotec.com
 # Description   :Script to check SSL certificate expiration date of a list of sites. Recommended to use with a dark terminal theme to
 #                see the colors correctly. The terminal also needs to support 256 colors.
 # Dependencies  :openssl, mutt (if you use the mail option)
@@ -49,7 +48,7 @@ html_mode(){
 			</head>
 			<body style="background-color: lightblue;">
 					<h1 style="color: navy;text-align: center;font-family: 'Helvetica Neue', sans-serif;font-size: 20px;font-weight: bold;">SSL Certs expiration checker</h1>
-					<a href="https://github.com/juliojsb/jota-cert-checker" style="position: absolute; top: 0; right: 0px"><img loading="lazy" width="100" height="100" src="https://github.blog/wp-content/uploads/2008/12/forkme_right_darkblue_121621.png?resize=100%2C100" class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"></a>
+					<a href="https://github.com/imbalakumaran/SSL-Checker.git" style="position: absolute; top: 0; right: 0px"><img loading="lazy" width="100" height="100" src="https://github.blog/wp-content/uploads/2008/12/forkme_right_darkblue_121621.png?resize=100%2C100" class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"></a>
 					<table style="background-color: #C5E1E7;padding: 10px;box-shadow: 5px 10px 18px #888888;margin-left: auto ;margin-right: auto ;border: 1px solid black;">
 					<tr style="padding: 8px;text-align: left;font-family: 'Helvetica Neue', sans-serif;">
 					<th style="padding: 8px;text-align: left;font-family: 'Helvetica Neue', sans-serif;font-weight: bold;">Site</th>
@@ -174,16 +173,16 @@ howtouse(){
 	Examples:
 
 		# Launch the script in terminal mode:
-		./jota-cert-checker.sh -f sitelist -o terminal
+		./bala-cert-checker.sh -f sitelist -o terminal
 
 		# Using HTML mode:
-		./jota-cert-checker.sh -f sitelist -o html
+		./bala-cert-checker.sh -f sitelist -o html
 
 		# Using HTML mode and sending results via email
-		./jota-cert-checker.sh -f sitelist -o html -m mail@example.com
+		./bala-cert-checker.sh -f sitelist -o html -m mail@example.com
 
 		# Using HTML mode and sending results via email
-		./jota-cert-checker.sh -f sitelist -o html -s my_slack_channel
+		./bala-cert-checker.sh -f sitelist -o html -s my_slack_channel
 
 	EOF
 }
