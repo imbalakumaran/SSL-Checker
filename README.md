@@ -69,3 +69,7 @@ Also in HTML mode and sending the result to a slack channel:
 ```bash
 ./jota-cert-checker.sh -f sitelist -o html -s my_slack_channel
 ```
+
+# Git Issue
+! [rejected]        master -> master (fetch first)
+git pull --force
