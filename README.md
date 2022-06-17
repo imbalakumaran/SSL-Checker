@@ -1,4 +1,4 @@
-# jota-cert-checker
+# Bala-cert-checker
 
 ## Description
 
@@ -43,7 +43,7 @@ In the following cases I modified the variables **warning_days** and **alert_day
 
 To launch the script in terminal mode:
 ```bash
-./jota-cert-checker.sh -f sitelist -o terminal
+./bala-cert-checker.sh -f sitelist -o terminal
 ```
 We get the following output in our terminal:
 
@@ -51,7 +51,7 @@ We get the following output in our terminal:
 
 In HTML mode:
 ```bash
-./jota-cert-checker.sh -f sitelist -o html
+./bala-cert-checker.sh -f sitelist -o html
 ```
 We get the following output:
 
@@ -59,7 +59,7 @@ We get the following output:
 
 In HTML mode and sending the result to an email:
 ```bash
-./jota-cert-checker.sh -f sitelist -o html -m mail@example.com
+./bala-cert-checker.sh -f sitelist -o html -m balakumaran.manivel@arkinfotec.com
 ```
 Checking our email we will see:
 
