@@ -22,8 +22,8 @@ current_date=$(date +%s)
 end_date="${end_date:-}"
 days_left="${days_left:-}"
 certificate_last_day="${certificate_last_day:-}"
-warning_days="${warning_days:-300}"
-alert_days="${alert_days:-150}"
+warning_days="${warning_days:-30}"
+alert_days="${alert_days:-10}"
 # Terminal colors
 ok_color="\e[38;5;40m"
 warning_color="\e[38;5;220m"
